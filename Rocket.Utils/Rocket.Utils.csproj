@@ -22,8 +22,13 @@
 		<RepositoryUrl>https://github.com/F-Plugins/Rocket.Utils</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageProjectUrl>https://github.com/F-Plugins/Rocket.Utils</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
-	
+		
+	<ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+		
 	<ItemGroup>
 	  <PackageReference Include="RestoreMonarchy.RocketRedist" Version="3.24.4" />
 	  <PackageReference Include="RestoreMonarchy.UnturnedRedist" Version="3.24.4" />
