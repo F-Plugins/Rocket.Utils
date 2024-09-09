@@ -26,12 +26,13 @@
 	</PropertyGroup>
 		
 	<ItemGroup>
-        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 		
 	<ItemGroup>
 	  <PackageReference Include="RestoreMonarchy.RocketRedist" Version="3.24.4" />
 	  <PackageReference Include="RestoreMonarchy.UnturnedRedist" Version="3.24.4" />
+	  <PackageReference Include="SmartFormat" Version="3.5.0" />
 	</ItemGroup>
 
 </Project>
